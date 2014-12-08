@@ -1,2 +1,2 @@
 #! /bin/bash
-"$(dirname "$0")"/src/plan-ipc seq-sat-cedalion "$@"
+$(readlink -f "$(which cedalion-planner-script)") seq-sat-cedalion "$@"
