@@ -5,5 +5,4 @@ if [[ $# != 4 ]]; then
     exit 1
 fi
 
-BASEDIR="$(dirname "$0")"
-"$BASEDIR/plan" "$2" "$3" ipc "$1" --plan-file "$4"
+cedalion-planner-script "$2" "$3" ipc "$1" --plan-file "$4"

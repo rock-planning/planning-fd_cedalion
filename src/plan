@@ -1,7 +1,5 @@
 #! /bin/bash
 
-set -e
-
 BASEDIR="$(dirname "$0")"
 
 function die {
@@ -14,9 +12,9 @@ function usage {
 }
 
 # Paths to planner components
-TRANSLATE="$BASEDIR/translate/translate.py"
-PREPROCESS="$BASEDIR/preprocess/preprocess"
-SEARCH="$BASEDIR/search/downward"
+TRANSLATE="$(dirname $(which cedalion-planner))/cedalion/translate/translate.py"
+PREPROCESS="$(dirname $(which cedalion-planner))/cedalion/preprocess/preprocess"
+SEARCH="$(dirname $(which cedalion-planner))/cedalion/search/downward"
 
 # Need to explicitly ask for GNU time (from MacPorts) on Mac OS X.
 if [[ "$(uname)" == "Darwin" ]]; then

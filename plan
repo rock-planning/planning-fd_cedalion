@@ -1,2 +1,0 @@
-#! /bin/bash
-$(readlink -f "$(which cedalion-planner-script)") seq-sat-cedalion "$@"
