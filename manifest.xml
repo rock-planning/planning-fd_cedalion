@@ -4,8 +4,11 @@
       No additional functionality is provided, adaptations to the original source are made only to include the planner into the 
       build infrastructure.
   </description>
+  <author>Thomas Roehr/thomas.roehr@dfki.de</author>
   <author>Petre Munteanu/petre_virgil.munteanu@dfki.de</author>
   <license>GPL</license>
   <url>http://helios.hud.ac.uk/scommv/IPC-14/repo_planners/seq-sat.zip</url>
-  <depend package="base/types" />
+  <depend package="base/cmake" />
+  <depend package="python" />
+  <depend package="coinor" />
 </package>
