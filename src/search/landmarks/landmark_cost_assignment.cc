@@ -5,7 +5,7 @@
 #ifdef USE_LP
 #pragma GCC diagnostic ignored "-Wunused-parameter"
 #ifdef COIN_USE_CLP
-#include "OsiClpSolverInterface.hpp"
+#include "coin/OsiClpSolverInterface.hpp"
 typedef OsiClpSolverInterface OsiXxxSolverInterface;
 #endif
 

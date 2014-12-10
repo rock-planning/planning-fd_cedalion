@@ -38,8 +38,8 @@ class Abstraction {
 
     friend class ShrinkStrategy; // for apply() -- TODO: refactor!
 
-    static const int PRUNED_STATE = -1;
-    static const int DISTANCE_UNKNOWN = -2;
+    static const int PRUNED_STATE;
+    static const int DISTANCE_UNKNOWN;
 
     const bool is_unit_cost;
     const OperatorCost cost_type;

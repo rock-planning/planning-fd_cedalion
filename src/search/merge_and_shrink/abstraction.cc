@@ -88,6 +88,9 @@ using namespace __gnu_cxx;
 //        grep for it). It should only be defined once.
 static const int infinity = numeric_limits<int>::max();
 
+const int Abstraction::PRUNED_STATE = -1;
+const int Abstraction::DISTANCE_UNKNOWN = -2;
+
 inline int get_op_index(const Operator *op) {
     /* TODO: The op_index computation is duplicated from
      LabelReducer::get_op_index() and actually belongs neither

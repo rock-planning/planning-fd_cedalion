@@ -32,7 +32,7 @@ public:
 };
 
 #ifdef USE_LP
-class OsiSolverInterface;
+#include <coin/OsiSolverInterface.hpp>
 #endif
 
 class LandmarkEfficientOptimalSharedCostAssignment : public LandmarkCostAssignment {
