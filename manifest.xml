@@ -13,4 +13,5 @@
   <depend package="python" />
   <depend package="coinor" />
   <depend package="bzip2" />
+  <depend package="zlib" />
 </package>
