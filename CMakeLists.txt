@@ -1,6 +1,10 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.10)
+project(cedalion
+        VERSION 0.1
+        DESCRIPTION "Fast-Downward Cedalion planner"
+)
 find_package(Rock)
-rock_init(cedalion 0.1)
+rock_init()
 
 add_definitions(-Wno-deprecated)
 add_definitions(-Wextra -Wno-sign-compare)

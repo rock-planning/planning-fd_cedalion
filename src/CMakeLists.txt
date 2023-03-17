@@ -1,4 +1,4 @@
-find_package(Boost 1.54 REQUIRED)
+find_package(Boost REQUIRED)
 include_directories(${Boost_INCLUDE_DIR})
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/search/ext)
