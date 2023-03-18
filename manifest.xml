@@ -4,7 +4,7 @@
       No additional functionality is provided, adaptations to the original source are made only to include the planner into the 
       build infrastructure.
   </description>
-  <maintainer>Thomas Roehr/thomas.roehr@dfki.de</maintainer>
+  <maintainer>Thomas Roehr/roehr@simula.no</maintainer>
   <author>Petre Munteanu/petre_virgil.munteanu@dfki.de</author>
   <license>GPL</license>
   <url>http://helios.hud.ac.uk/scommv/IPC-14/repo_planners/seq-sat.zip</url>
